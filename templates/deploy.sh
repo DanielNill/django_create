@@ -1,7 +1,7 @@
 #! /bin/bash
 # ssh into webfactional
 echo 'connecting to server ...'
-ssh danieln@danieln.webfactional.com
+ssh 'ssh.name@ssh.path.for.your.server'
 
 # project deploy script
 cd /home/danieln/webapps/{{ project_name }}/{{ project_name }}
